@@ -1,0 +1,16 @@
+{
+  "name": "Conbee deCONZ webinterface",
+  "version": "1.1",
+  "slug": "conbee_deconz",
+  "description": "Module to run Conbee",
+  "startup": "services",
+  "boot": "auto",
+  "host_network": "true",
+  "devices": ["/dev/ttyUSB0:/dev/ttyAMA0:rwm"],
+  "options": {},
+  "schema": {},
+  "ports": {
+      "80/tcp": 80,
+	  "8080/tcp": 8080
+	  }
+}
